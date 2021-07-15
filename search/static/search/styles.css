@@ -1,0 +1,156 @@
+body {
+  background-color: darkblue !important;
+  color: white !important;
+  font-family: "Roboto Slab", serif !important;
+  background-image: linear-gradient(rgb(77, 0, 77), black);
+}
+
+.movie {
+  text-align: center;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "movie0 movie1 movie2 movie3"
+    "movie4 movie5 movie6 movie7"
+    "movie8 movie9 movie10 movie11"
+    "movie12 movie13 movie14 movie15"
+    "movie16 movie17 movie18 movie19";
+  grid-gap: 20px;
+  padding: 50px;
+}
+
+.movie0 {
+  grid-area: movie0;
+}
+.movie1 {
+  grid-area: movie1;
+}
+.movie2 {
+  grid-area: movie2;
+}
+.movie3 {
+  grid-area: movie3;
+}
+.movie4 {
+  grid-area: movie4;
+}
+.movie5 {
+  grid-area: movie5;
+}
+.movie6 {
+  grid-area: movie6;
+}
+.movie7 {
+  grid-area: movie7;
+}
+.movie8 {
+  grid-area: movie8;
+}
+.movie9 {
+  grid-area: movie9;
+}
+.movie10 {
+  grid-area: movie10;
+}
+.movie11 {
+  grid-area: movie11;
+}
+.movie12 {
+  grid-area: movie12;
+}
+.movie13 {
+  grid-area: movie13;
+}
+.movie14 {
+  grid-area: movie14;
+}
+.movie15 {
+  grid-area: movie15;
+}
+.movie16 {
+  grid-area: movie16;
+}
+
+.movie17 {
+  grid-area: movie17;
+}
+.movie18 {
+  grid-area: movie18;
+}
+.movie19 {
+  grid-area: movie19;
+}
+
+.advanced-search {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.input {
+  width: 25%;
+}
+
+.date-start,
+.date-end,
+.vote-average-start,
+.vote-average-end {
+  background-color: rgb(233, 236, 239);
+  border-radius: 10px;
+}
+
+.search {
+  width: 50%;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  height: 40px;
+}
+
+.genre-tags {
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background-color: rgb(13, 202, 240);
+  border-radius: 30px;
+  cursor: pointer;
+  margin: 5px;
+  padding: 10px;
+  color: black;
+}
+
+.visited {
+  background-color: rgb(3, 94, 94);
+}
+
+.poster {
+  width: 185px;
+  height: 278px;
+}
+
+.page-title {
+  padding: 10px;
+  width: 400px;
+  height: auto;
+  margin: auto;
+}
+
+.pagination {
+  width: 200px !important;
+}
+
+.input {
+  border-radius: 3px;
+}
