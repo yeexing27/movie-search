@@ -17,6 +17,6 @@ Javascript, HTML, CSS, Python
 5. Install Django:
   - python3 -m pip install django
 6. Start the server: (make migrations if needed)
-  - python manage.py runserver
+  - python3 manage.py runserver
 
  
